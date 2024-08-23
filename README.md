@@ -1,5 +1,5 @@
 # TicketMachine
-# Member
+## Member
 - JoHigashiyama
 - tonouchi
 - Shun Tomaki
