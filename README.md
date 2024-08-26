@@ -2,4 +2,4 @@
 ## Member
 - JoHigashiyama
 - tonouchi
-- Shun Tomaki
+- Shun417jp
