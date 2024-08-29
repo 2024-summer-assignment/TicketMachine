@@ -1,10 +1,10 @@
 /**
 
- * 商品情報を保持する。
+ * カート内の商品情報を保持する。
 
  */
 
- public class Item {
+ public class CartItem {
 
     private int id;
 
@@ -12,15 +12,19 @@
 
     private int price;
 
+    private int quantity;
 
 
-    public Item(int id, String name, int price) {
+
+    public CartItem(int id, String name, int price) {
 
         this.id = id;
 
         this.name = name;
 
         this.price = price;
+
+        this.quantity = 1;
 
     }
 
@@ -50,6 +54,14 @@
 
 
 
+    public void setQuantity(int quantity) {
+
+        this.quantity = quantity;
+
+    }
+
+
+
     public int getId() {
 
         return this.id;
@@ -69,6 +81,14 @@
     public int getPrice() {
 
         return this.price;
+
+    }
+
+
+
+    public int getQuantity() {
+
+        return this.quantity;
 
     }
 
