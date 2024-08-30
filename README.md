@@ -1,5 +1,5 @@
 # TicketMachine
 ## Member
 - JoHigashiyama
-- tonouchi
-- Shun Tomaki
+- shun417jp
+- out-in062
