@@ -26,15 +26,15 @@ public class main {
 
     items.add(new Item(4, "ごはん", 150));
 
-   // for(Item item : items) {
-   //   System.out.println(item.getId() + "." + item.getName() + "  " + item.getPrice() + "円");
-  //}
+
 
     TicketVendor tv = new TicketVendor(items);
 
 
 
     tv.showItems();
+
+
 
     while (true) {
 
@@ -133,6 +133,4 @@ public class main {
 
 
     tv.showCartItems();
-
-  }
-}
+  }}
