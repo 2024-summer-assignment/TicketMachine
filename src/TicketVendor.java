@@ -6,15 +6,7 @@ import java.io.*;
 
 
 
-/**
-
- * 券売機
-
- * ユーザーに対して券売機の機能を提供する。
-
- */
-
- public class TicketVendor {
+public class TicketVendor {
 
     private List<Item> items;
 
@@ -88,8 +80,10 @@ import java.io.*;
 
         }
 
-    }
 
 
+        
 
-}
+        System.out.println("合計:" + cart.getTotalPrice() + "円");
+
+    }}
